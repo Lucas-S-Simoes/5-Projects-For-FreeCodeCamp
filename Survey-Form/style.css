@@ -1,0 +1,89 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width:100%;
+    background-color: pink;
+    color:white;
+    font-family: Helvetica;
+    font-size:17px;
+}
+
+header {
+    text-align:center;
+    margin:2em auto;
+}
+
+form {
+    width:80vw;
+    max-width:700px;
+    min-width: 300px;
+    margin: 0 auto 3rem auto;
+    background-color: rgba(27, 27, 50, 0.9);
+    padding:40px 40px 55px 40px;
+}
+
+fieldset {
+    border:none;
+    padding: 0.5rem 0;
+}
+
+label {
+    display:block;
+    margin: 0.5rem 0;
+}
+
+input, textarea, select {
+    width:100%;
+    min-height:1.7rem;
+    border-radius: 6px;
+}
+
+.inline {
+    width:unset;
+    margin: 0 0.5em 0 0;
+    vertical-align:middle;
+}
+
+#submit {
+    height:2rem;
+    background-color: #37af65;
+    color:white;
+    border:none;
+    font-size:16px;
+    font-weight:bold; 
+}
+
+#comments-text::placeholder {
+    font-size:14px;
+    padding:5px;
+}
+
+::placeholder {
+    padding: 5px
+}
+
+.pad {
+    margin:6px 0;
+}
+
+.box-grad {
+    background-image:linear-gradient(90deg, rgb(27, 27, 50), rgb(50, 50, 27	
+    ),rgb(39, 27, 50	
+    ));
+    background-size: 500% 100%;
+    animation: deg-animated 10s infinite alternate;
+}
+
+@keyframes deg-animated {
+    0% {
+        background-position-x: 0%;
+    }
+    100% {
+        background-position-x:100%;
+    }
+}
+  
